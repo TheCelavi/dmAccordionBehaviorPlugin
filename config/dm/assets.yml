@@ -1,0 +1,6 @@
+js:
+  dmAccordionBehaviorPlugin:
+    launch: dmAccordionBehavior.min
+css:
+  dmAccordionBehaviorPlugin:
+    themes: themes

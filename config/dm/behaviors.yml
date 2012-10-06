@@ -1,0 +1,7 @@
+dmBehaviors:
+  dmAccordionBehavior:
+    section: User interface
+    name: Accordion
+    form: dmAccordionBehaviorForm
+    view: dmAccordionBehaviorView
+

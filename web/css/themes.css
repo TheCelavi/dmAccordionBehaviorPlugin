@@ -1,0 +1,23 @@
+/* DO ATTACH THE .dmAccordionBehaviorContainer with theme class, if you have more than one theme */
+/* EXAMPLE .themeDark.dmAccordionBehaviorContainer */
+.dmAccordionBehaviorContainer {
+    /* container of the elements in accordion */
+}
+.dmAccordionBehaviorContainer .dm_accordiont_content {
+    /* selector for the content of tabs */
+}
+.dmAccordionBehaviorContainer .dm_accordiont_tab {
+    cursor: pointer;
+    /* selector of the tabs */
+}
+.dmAccordionBehaviorContainer .dm_accordiont_tab.dm_accordion_tab_open {
+    /* selector of the tabs which are open */
+}
+.dmAccordionBehaviorContainer .dm_accordiont_tab.dm_accordion_tab_closed {
+    /* selector of the tabs which are closed */
+}
+/* 
+Selectors for the individual tabs are
+.dm_accordion_tab_index_[index], index is 1,2,3... etc
+.dm_accordion_content_index_[index], index is 1,2,3... etc
+*/
